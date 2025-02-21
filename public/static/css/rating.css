@@ -1,0 +1,82 @@
+.comment-section {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.star {
+    color: gold; /* Màu vàng cho ngôi sao */
+    font-size: 20px; /* Kích thước ngôi sao */
+    margin-right: 2px; /* Khoảng cách giữa các ngôi sao */
+}
+.star.empty {
+    color: #ccc; /* Màu xám cho ngôi sao rỗng */
+}
+
+.comment {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+.comment .comment-author {
+    font-weight: bold;
+}
+.comment .comment-text {
+    margin-top: 5px;
+}
+
+.form_rating{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(166, 174, 191, 0.5);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rateForm{
+    width: 500px;
+    height: 200px;
+    background-color: white;
+}
+
+.list_start i:hover{
+    cursor: pointer;
+}
+.list_text {
+    display: inline-block;
+    margin-left: 10px;
+    position: relative;
+    background: #52b858;
+    color: #fff;
+    padding: 2px 8px;
+    box-sizing: border-box;
+    font-size: 12px;
+    border-radius: 2px; 
+    display: none ;
+}
+
+.list_text::after
+{
+    content: " ";
+    right: 100%;
+    top: 50%;
+    width: 0;
+    height: 0;
+    pointer-events: none; 
+    position: absolute;
+    borer: solid transparent;
+    border-color: rgba(82, 184, 88, 0);
+    border-right-color: #52b858;
+    border-width: 6px;; 
+    border-top: -6px;
+}
+
+.list_start .rating_active {
+    color: #ff9705;
+}

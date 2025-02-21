@@ -1,0 +1,111 @@
+ .hidden {
+      display: none;
+    }
+    .button {
+    display: inline-block; /* Để thẻ <a> hoạt động giống một button */
+    padding: 10px 20px;    /* Tạo khoảng trống xung quanh nội dung */
+    background-color: #4CAF50; /* Màu nền xanh lá */
+    color: white;          /* Màu chữ trắng */
+    text-align: center;    /* Căn giữa nội dung */
+    text-decoration: none; /* Loại bỏ gạch chân mặc định của thẻ <a> */
+    font-size: 16px;       /* Kích thước chữ */
+    border-radius: 5px;    /* Bo góc cho button */
+    transition: background-color 0.3s ease; /* Hiệu ứng khi di chuột qua */
+}
+
+.home-container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://i.pinimg.com/originals/d6/a6/92/d6a692fc1e0489955e2b4ed4ae742c76.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+}
+
+.button:hover {
+    background-color: #45a049; /* Đổi màu khi hover */
+}
+
+.button:active {
+    background-color: #3e8e41; /* Đổi màu khi nhấn */
+}
+
+.button:focus {
+    outline: none; /* Bỏ viền mặc định khi focus */
+    box-shadow: 0 0 5px #4CAF50; /* Thêm hiệu ứng bóng khi focus */
+}
+
+#orderStatusChart {
+  height: 400px !important;
+  width: 90% !important;
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+
+/* Target the canvas wrapper */
+#orderStatusChartContainer {
+  padding: 0;
+  margin: 0;
+}
+
+.status.done {
+    color: #FF9F40!important;
+}
+
+.status.confirmed {
+    color: #5cb85c!important;
+}
+
+.status.pending {
+    color: #36A2EB!important;
+}
+
+.status.shipping {
+    color: #FFCE56!important;
+}
+
+.status.shipped {
+    color: #4BC0C0!important;
+}
+
+.status.canceled {
+    color: #FF6384!important;
+}
+
+.bg-user {
+    background-color: #488A99;
+}
+
+.bg-user:hover {
+    background-color: #3c7581;
+}
+
+.bg-done {
+    background-color: #EA6A47;
+}
+
+.bg-done:hover {
+    background-color: #bb4e30!important;
+}
+
+#admin-bg {
+    margin-top: 20px;
+    height: 600px;
+    width: 100%;
+    background-image: url(https://i.pinimg.com/originals/87/01/57/870157a81ec8dfee7f22577d47cddc51.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.table-container {
+    max-height: 400px; 
+    overflow-y: auto;
+    padding-right: 15px; 
+}
