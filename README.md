@@ -1,85 +1,66 @@
-# TwiShop - Kids' Toy Store
+# 🎠 TwiShop - Kids' Toy Store
 
+https://twishop.work.gd/
 
+TwiShop is an online toy store built with Laravel, designed to provide a seamless shopping experience for parents and kids. The platform offers a wide range of toys, detailed product filtering, and a secure checkout process. 🏆
 
-TwiShop is an online toy store built with Laravel, designed to provide a seamless shopping experience for parents and kids. The platform offers a wide range of toys, detailed product filtering, and a secure checkout process.
+## ✨ Features
 
-## Features
+- **🎨 User-friendly Interface**: Responsive and intuitive design.
+- **🧩 Product Filtering**: Advanced filters by age, brand, price, and more.
+- **🛒 Shopping Cart & Checkout**: Secure payment methods and easy checkout process.
+- **📦 Order Management**: Admin dashboard for tracking and managing orders.
+- **📊 Reports & Analytics**: Monthly revenue and sales breakdown by product categories.
+- **🔧 Warranty Management**: Dedicated warranty section for customer service.
 
-- **User-friendly Interface**: Responsive and intuitive design.
-- **Product Filtering**: Advanced filters by age, brand, price, and more.
-- **Shopping Cart & Checkout**: Secure payment methods and easy checkout process.
-- **Order Management**: Admin dashboard for tracking and managing orders.
-- **Reports & Analytics**: Monthly revenue and sales breakdown by product categories.
-- **Warranty Management**: Dedicated warranty section for customer service.
+## ⚡ Installation
 
-## Installation
-
-### Prerequisites
-
+### 🛠️ Prerequisites
 - PHP 8+
 - Composer
 - Laravel 10
 - MySQL or PostgreSQL
 - Node.js & NPM (for frontend dependencies)
 
-### Steps
+### 📥 Steps
 
 1. **Clone the repository**
-
    ```bash
    git clone https://github.com/yourusername/twishop.git
    cd twishop
    ```
 
 2. **Install dependencies**
-
    ```bash
    composer install
    npm install
    ```
 
 3. **Setup Environment**
-
    ```bash
    cp .env.example .env
    php artisan key:generate
    ```
-
    Configure your `.env` file with database credentials and other settings.
 
 4. **Run Migrations & Seed Database**
-
    ```bash
    php artisan migrate --seed
    ```
 
 5. **Run the Application**
-
    ```bash
    php artisan serve
    ```
+   Visit `http://127.0.0.1:8000` to access TwiShop. 🎉
 
-   Visit `http://127.0.0.1:8000` to access TwiShop.
-
-## Admin Panel
+## 🔑 Admin Panel
 
 - Access the admin dashboard at: `http://127.0.0.1:8000/admin`
-- Default Admin Credentials (change after setup):
-  - Email: `admin@twishop.com`
-  - Password: `admin123`
 
-## API Endpoints (for developers)
-
-- **Get all products**: `GET /api/products`
-- **Get single product**: `GET /api/products/{id}`
-- **Create order**: `POST /api/orders`
-- **Manage categories**: `GET /api/categories`
-
-## Deployment
+## 🚀 Deployment
 
 For production, use:
-
 ```bash
 php artisan optimize
 php artisan config:cache
@@ -87,19 +68,12 @@ php artisan route:cache
 php artisan migrate --force
 ```
 
-## Contributing
-
-1. Fork the repository.
-2. Create a new branch (`feature-branch`).
-3. Commit your changes.
-4. Push to your fork and submit a pull request.
-
-## License
+## 📜 License
 
 TwiShop is licensed under the MIT License.
 
 ---
 
 ### 📬 Support
+For support, contact us at [📧 manh86573.st@vimaru.edu.vn](mailto:manh86573.st@vimaru.edu.vn) or create an issue in the repository. 💡
 
-For support, contact us at [manh86573.st@vimaru.edu.vn](mailto\:manh86573.st@vimaru.edu.vn) or create an issue in the repository.
