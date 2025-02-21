@@ -13,6 +13,10 @@ TwiShop is an online toy store built with Laravel, designed to provide a seamles
 - **📊 Reports & Analytics**: Monthly revenue and sales breakdown by product categories.
 - **🔧 Warranty Management**: Dedicated warranty section for customer service.
 
+## 🖼️ Product Showcase
+![{994044E6-A75F-47B3-A0F1-C348F8985D38}](https://github.com/user-attachments/assets/7bedd97f-dc65-44e5-b1dc-434c5936bd8c)
+![{0E22624A-0F29-475F-86E6-1864C81CB7D0}](https://github.com/user-attachments/assets/510da5a2-7036-4de1-9155-11b2ddf85e7f)
+
 ## ⚡ Installation
 
 ### 🛠️ Prerequisites
@@ -76,4 +80,6 @@ TwiShop is licensed under the MIT License.
 
 ### 📬 Support
 For support, contact us at [📧 manh86573.st@vimaru.edu.vn](mailto:manh86573.st@vimaru.edu.vn) or create an issue in the repository. 💡
+
+
 
